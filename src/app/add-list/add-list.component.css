@@ -1,0 +1,21 @@
+.topic{
+  /* border: 10px solid green */
+  padding: 30px;
+ text-align: center;
+ margin: 10px;
+ font-family: 'Lobster', cursive;
+ color: red;
+
+}
+ .box {
+   width: 50%;
+   margin-left: 40%;
+   margin-bottom: 20px;
+ }
+
+ .container {
+    width: 50%;
+    margin-left: 40%;
+    margin-top: 30px;
+
+ }

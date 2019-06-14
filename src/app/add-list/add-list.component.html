@@ -1,0 +1,28 @@
+
+    <div class="topic">
+        <h1>To Do List</h1>
+    </div>
+
+
+  <div class="box">
+<form (submit)="onAdd(listForm)" #listForm="ngForm">
+    <input
+        type="text"
+        class="form-control form-control-lg"
+        placeholder="add item list"
+        name="list"
+        ngModel
+        required
+        minlength="3">
+
+  <button
+          type="submit"
+  >Add</button>
+</form>
+</div>
+
+
+
+  <hr>
+
+  <app-todo-list></app-todo-list>

@@ -1,0 +1,9 @@
+<div class="container">
+
+    <mat-list *ngFor="let post of lists">
+      <input type="checkbox" >
+      {{ post.list }}
+      <button (click)="onDelete(post.id)">Delete</button>
+    </mat-list>
+
+</div>
